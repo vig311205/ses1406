@@ -25,15 +25,74 @@ class _HomeScreenState extends State<HomeScreen> {
         imageUrl: "assests/images/food/image1.jpg",
         menu: [
           MenuItem(
-            dishName: "Idili",
+            dishName: "Idili pattukotai",
             price: 30,
             ratings: 5,
             ingridients: ['Rice', 'Urad dal', 'Salt', 'oil'],
             images: [
-              "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/idli-recipe.jpgF",
               "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             ],
-          )
+          ),
+          MenuItem(
+            dishName: "Dosa",
+            price: 30,
+            ratings: 5,
+            ingridients: ['Rice', 'Urad dal', 'Salt', 'oil'],
+            images: [
+              "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/idli-recipe.jpg",
+              "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            ],
+          ),
+          MenuItem(
+            dishName: "Omlet",
+            price: 30,
+            ratings: 5,
+            ingridients: ['Rice', 'Urad dal', 'Salt', 'oil'],
+            images: [
+              "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/idli-recipe.jpg",
+              "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            ],
+          ),
+          MenuItem(
+            dishName: "Vada",
+            price: 30,
+            ratings: 5,
+            ingridients: ['Rice', 'Urad dal', 'Salt', 'oil'],
+            images: [
+              "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/idli-recipe.jpg",
+              "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            ],
+          ),
+          MenuItem(
+            dishName: "Poori",
+            price: 30,
+            ratings: 5,
+            ingridients: ['Rice', 'Urad dal', 'Salt', 'oil'],
+            images: [
+              "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/idli-recipe.jpg",
+              "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            ],
+          ),
+          MenuItem(
+            dishName: "Pongal",
+            price: 30,
+            ratings: 5,
+            ingridients: ['Rice', 'Urad dal', 'Salt', 'oil'],
+            images: [
+              "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/idli-recipe.jpg",
+              "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            ],
+          ),
+          MenuItem(
+            dishName: "Kalli",
+            price: 30,
+            ratings: 5,
+            ingridients: ['Rice', 'Urad dal', 'Salt', 'oil'],
+            images: [
+              "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/idli-recipe.jpg",
+              "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            ],
+          ),
         ]),
     RestaurantModel(
         typeOfFoodOffered: FoodTypes.veg,
@@ -45,7 +104,7 @@ class _HomeScreenState extends State<HomeScreen> {
         imageUrl: "assests/images/food/image2.jpg",
         menu: [
           MenuItem(
-            dishName: "Idili",
+            dishName: "Idili geetham",
             price: 30,
             ratings: 5,
             ingridients: ['Rice', 'Urad dal', 'Salt', 'oil'],
