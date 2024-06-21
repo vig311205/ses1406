@@ -288,7 +288,7 @@ class _HomeScreenState extends State<HomeScreen> {
             onTap: () {
               print("*********");
               print(allRes[inx].name);
-              Navigator.push(
+              Navigator.pop(
                 context,
                 MaterialPageRoute(
                   builder: (stx) {
