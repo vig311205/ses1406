@@ -90,13 +90,31 @@ class _HotelScreenState extends State<HotelScreen> {
                       ],
                     ),
                   ),
-                  ClipRRect(
-                    clipBehavior: Clip.hardEdge,
-                    borderRadius: BorderRadius.circular(16),
-                    child: Image.network(
-                      height: 100,
-                      widget.hotel.menu[inx].images.last,
-                      fit: BoxFit.cover,
+                  SizedBox(
+                    height: 100,
+                    width: 130,
+                    child: ClipRRect(
+                      clipBehavior: Clip.hardEdge,
+                      borderRadius: BorderRadius.circular(16),
+                      child: ListView.separated(
+                        physics: const PageScrollPhysics(),
+                        shrinkWrap: true,
+                        itemCount: widget.hotel.menu[inx].images.length,
+                        scrollDirection: Axis.horizontal,
+                        itemBuilder: (context, index) {
+                          return Image.network(
+                            height: 100,
+                            width: 130,
+                            widget.hotel.menu[inx].images[index],
+                            fit: BoxFit.cover,
+                          );
+                        },
+                        separatorBuilder: (context, index) {
+                          return const SizedBox(
+                            width: 8,
+                          );
+                        },
+                      ),
                     ),
                   )
                 ],

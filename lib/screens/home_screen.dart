@@ -30,7 +30,8 @@ class _HomeScreenState extends State<HomeScreen> {
             ratings: 5,
             ingridients: ['Rice', 'Urad dal', 'Salt', 'oil'],
             images: [
-              "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "https://images.unsplash.com/photo-1517244683847-7456b63c5969?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             ],
           ),
           MenuItem(
@@ -288,7 +289,7 @@ class _HomeScreenState extends State<HomeScreen> {
             onTap: () {
               print("*********");
               print(allRes[inx].name);
-              Navigator.pop(
+              Navigator.push(
                 context,
                 MaterialPageRoute(
                   builder: (stx) {

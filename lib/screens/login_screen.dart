@@ -70,6 +70,8 @@ class _LoginScreenState extends State<LoginScreen> {
                             hintText: "Email",
                             fillColor: Color(0xffF3F5F7),
                           ),
+                          autofocus: true,
+                          textInputAction: TextInputAction.next,
                         ),
                         SizedBox(
                           height: 16,
@@ -77,6 +79,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         TextFormField(
                           controller: passwordController,
                           obscureText: hidandshow,
+                          keyboardType: TextInputType.number,
                           obscuringCharacter: '*',
                           decoration: InputDecoration(
                             border: OutlineInputBorder(
