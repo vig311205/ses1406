@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:ses1406/screens/bottom_navigation.dart';
 import 'package:ses1406/screens/home_screen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -117,9 +118,11 @@ class _LoginScreenState extends State<LoginScreen> {
                               if (userIdController.text == existingUserId &&
                                   passwordController.text == password) {
                                 Navigator.pushReplacement(
-                                    context,
-                                    MaterialPageRoute(
-                                        builder: (ctx) => HomeScreen()));
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (ctx) => BottomNavigation(),
+                                  ),
+                                );
                               } else {
                                 print(false);
                               }
